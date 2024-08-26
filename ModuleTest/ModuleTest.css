@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.container {
+    background-color: #8cc461;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+}
+.box1 {
+    color: white;
+    padding-left: 400px;
+    padding-top: 100px;
+    font-family: "Roboto", sans-serif;
+    
+}
+.flex {
+    border-radius: 3px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+.flex1 {
+    margin-left: 200px;
+}
+.flex2 {
+    margin-left: 40px;
+}
+.para {
+    font-size:x-large;
+}
+.ellip {
+   position: relative;
+}
+.rockimage {
+    position: relative;
+    left:-85px;
+    top: -25px;
+}
+.line {
+    transform: rotate(-45deg);
+    margin-left: -250px;
+    margin-top: 110px;
+}
+.li {
+    transform: rotate(45deg);
+    margin-left: -110px;
+    margin-top: 110px;
+}
+.play {
+    display: flex;
+    flex-direction: row;
+    margin-left: 580px;
+    margin-top: 100px;
+}
+.play2 {
+    padding-left: 240px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+.lin {
+    margin-left:-100px;
+    margin-top: 40px;
+}
+.sample2 {
+    margin-left: -10px;
+}
+.rockimage1 {
+    position: relative;
+    left:-80px;
+    top: -25px;
+}
+.rules {
+    margin-left: 1350px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.button1 {
+    height: 40px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: #8cc461;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.choice-button {
+    background-color: #8cc461;
+    border-color: #8cc461;
+    border-right: #8cc461;
+    border-bottom: #8cc461;
+}
+.rockim {
+    position: relative;
+    left:-80px;
+    top: -25px;
+}
+.hello {
+    margin-left: -100px;
+}
+.hi {
+    margin-left: 50px;
+}
+.text {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: x-large;
+}
+.b {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+}
+.rules {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1250px;
+    justify-content: space-around;
+}
+.cup {
+    margin-left: 650px;
+    margin-top: 140px;
+}
+.hurr {
+    color: white;
+    font-size: xx-large;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+.you {
+    color: white;
+    font-size: x-large;
+    margin-left: 650px;
+    margin-top: 5px;
+}
+.b1 {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    margin-top: 5px;
+    margin-left: 680px;
+}
+.star {
+    margin-left: -10px;
+}
+.star1 {
+    margin-left: -500px;
+    margin-bottom: 100px;
+}
+.star3 {
+    margin-bottom: 200px;
+    margin-left: -20px;
+}
+.star4 {
+    margin-bottom: 200px;
+    margin-left: 300px;
+}

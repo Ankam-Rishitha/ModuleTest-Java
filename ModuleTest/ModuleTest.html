@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ModuleTest.css"/>
+    <title>ModuleTest</title>
+</head>
+<body>
+    <script src="./ModuleTest.js"></script>
+    <div class="container">
+        <div class="box1">
+            <div>
+                <p class="para">ROCK<br>PAPER<br>SCISSORS</p>
+            </div>
+            <div class="flex flex1">
+                <p class="fl">COMPUTER<br>SCORE</p>
+                <p id="computerScore" class="fl1">0</p>
+            </div>
+            <div class="flex flex2">
+                <p class="fl">YOUR<br>SCORE</p>
+                <p id="userScore"class="fl1">0</p>
+            </div>
+        </div>
+        <div class="play">
+            <div class="sample">
+                <button class="choice-button" onclick="playGame('rock')">
+                    <img src="./Group 2.png" class="ellip" height="100" width="100"/>
+                    <img src="./rock.png" height="50" width="60" class="rockimage"/>
+                </button>
+            </div>
+            <div class="li"><img src="./Line 1.png"></div>
+            <div class="lin"><img src="./Line 1.png"></div>
+            <div class="sample2">
+                <button class="choice-button" onclick="playGame('paper')">
+                    <img src="./Group 3.png" class="ellip" height="100" width="100"/>
+                    <img src="./scissors.png" height="50" width="60" class="rockimage"/>
+                </button>
+            </div>
+            <div class="line"><img src="./Line 1.png"></div>
+        </div>
+        <div class=" play play2">
+            <button class="choice-button" onclick="playGame('scissors')">
+                <img src="./Group 1.png" class="ellip" height="100" width="100"/>
+                <img src="./paper.png" height="50" width="60" class="rockimage1"/>
+            </button>
+        </div>
+        <div class="rules">
+            <button id="rulesButton" class="button1">RULES</button>
+        </div>
+    </div>
+</body>
+</html>
